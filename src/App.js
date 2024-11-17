@@ -1,9 +1,10 @@
-import Calendar from "./components/calendar";
+// import "./styles/style.css";
+import Home from "./pages/home";
 
 function App() {
   return (
-    <div className="App">
-      <Calendar />
+    <div>
+      <Home />
     </div>
   );
 }

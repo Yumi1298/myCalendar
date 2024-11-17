@@ -1,0 +1,62 @@
+.dateRangeContainer {
+  width: 350px;
+  height: 240px;
+  font-size: 16px;
+}
+
+.dateRangeHeader {
+  width: 350px;
+  height: 44px;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.monthSelect {
+  width: 44px;
+  height: 44px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.monthSelect:hover {
+  background-color: #e6e6e6;
+}
+
+.calendarGrid {
+  display: grid;
+  grid-template-columns: repeat(7, 50px);
+}
+
+.dayButton {
+  width: 50px;
+  height: 36px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.dayButton:hover {
+  background-color: #e6e6e6;
+}
+
+.dayButtonToday {
+  background-color: #ffff76;
+}
+
+.dayButtonInRange {
+  background-color: #006edc;
+  color: white;
+}
+
+.dayButtonActive {
+  background-color: #006edc;
+  color: white;
+}
+
+.dayButtonNonCurrentMonth {
+  color: #757575;
+  cursor: not-allowed;
+}
